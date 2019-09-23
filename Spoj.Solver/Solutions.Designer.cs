@@ -61,6 +61,37 @@ namespace Spoj.Solver {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to using System;
+        ///
+        ///// https://www.spoj.com/problems/ADDREV/
+        ///// Reverses two integers then sums them then returns the reversed sum.
+        ///public static class ADDREV
+        ///{
+        ///    public static int Solve(int x, int y)
+        ///        =&gt; Reverse(Reverse(x) + Reverse(y));
+        ///
+        ///    private static int Reverse(int x)
+        ///    {
+        ///        var a = x.ToString().ToCharArray();
+        ///        Array.Reverse(a);
+        ///
+        ///        return int.Parse(new string(a));
+        ///    }
+        ///}
+        ///
+        ///public static class Program
+        ///{
+        ///    private static void Main()
+        ///    {
+        ///        var li [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string ADDREV {
+            get {
+                return ResourceManager.GetString("ADDREV", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to #ad-hoc
         ///#bfs
         ///#big-numbers

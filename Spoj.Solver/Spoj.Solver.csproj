@@ -54,7 +54,8 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Solutions\1 - Settler\TEST.cs" />
+    <None Include="Solutions\1 - Settler\TEST.cs" />
+    <Compile Include="Solutions\2 - Chieftain\ADDREV.cs" />
     <None Include="Solutions\TEMPLATE1.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -100,7 +101,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Solutions\2 - Chieftain\" />
     <Folder Include="Solutions\3 - Warlord\" />
     <Folder Include="Solutions\4 - Prince\" />
     <Folder Include="Solutions\5 - King\" />
