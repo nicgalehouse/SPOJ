@@ -120,6 +120,34 @@ namespace Spoj.Solver {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to using System;
+        ///using System.Collections.Generic;
+        ///using System.Linq;
+        ///
+        ///// https://www.spoj.com/problems/QUADAREA/
+        ///public static class QUADAREA
+        ///{
+        ///    // Brahmagupta&apos;s formula for getting the largest area of a quadrilateral given its sides.
+        ///    public static double Solve(double a, double b, double c, double d)
+        ///    {
+        ///        double s = (a + b + c + d) / 2;
+        ///
+        ///        return Math.Sqrt((s - a) * (s - b) * (s - c) * (s - d));
+        ///    }
+        ///}
+        ///
+        ///public static class Program
+        ///{
+        ///    private static void Main()
+        ///     [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string QUADAREA {
+            get {
+                return ResourceManager.GetString("QUADAREA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to #ad-hoc
         ///#bfs
         ///#big-numbers

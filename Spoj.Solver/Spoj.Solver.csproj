@@ -54,7 +54,8 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Solutions\2 - Chieftain\ARMY.cs" />
+    <None Include="Solutions\2 - Chieftain\ARMY.cs" />
+    <Compile Include="Solutions\2 - Chieftain\QUADAREA.cs" />
     <None Include="Solutions\1 - Settler\TEST.cs" />
     <None Include="Solutions\2 - Chieftain\ADDREV.cs" />
     <None Include="Solutions\TEMPLATE1.cs" />
