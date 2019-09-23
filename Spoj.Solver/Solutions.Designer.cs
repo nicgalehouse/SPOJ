@@ -124,6 +124,38 @@ namespace Spoj.Solver {
         ///using System.Collections.Generic;
         ///using System.Linq;
         ///
+        ///// https://www.spoj.com/problems/NSTEPS/
+        ///public static class NSTEPS
+        ///{
+        ///    public static string Solve(int x, int y)
+        ///    {
+        ///        if (x == y)
+        ///        {
+        ///            // The same number
+        ///            if (x % 2 == 0)
+        ///            {
+        ///                // Even
+        ///                return $&quot;{(x * 2)}&quot;;
+        ///            }
+        ///            else
+        ///            {
+        ///                // Odd
+        ///                return $&quot;{((x * 2) - 1)}&quot;;
+        ///            }
+        ///        }
+        ///  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string NSTEPS {
+            get {
+                return ResourceManager.GetString("NSTEPS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to using System;
+        ///using System.Collections.Generic;
+        ///using System.Linq;
+        ///
         ///// https://www.spoj.com/problems/QUADAREA/
         ///public static class QUADAREA
         ///{
