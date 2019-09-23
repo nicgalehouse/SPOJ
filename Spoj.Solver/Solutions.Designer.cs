@@ -113,5 +113,33 @@ namespace Spoj.Solver {
                 return ResourceManager.GetString("Tags", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to using System;
+        ///
+        ///// https://www.spoj.com/problems/TEST/
+        ///public static class TEST
+        ///{
+        ///    public static void Solve()
+        ///    {
+        ///        string line;
+        ///        while ((line = Console.ReadLine()) != &quot;42&quot;)
+        ///        {
+        ///            Console.WriteLine(line);
+        ///        }
+        ///    }
+        ///}
+        ///
+        ///public static class Program
+        ///{
+        ///    private static void Main()
+        ///        =&gt; TEST.Solve();
+        ///}.
+        /// </summary>
+        public static string TEST {
+            get {
+                return ResourceManager.GetString("TEST", resourceCulture);
+            }
+        }
     }
 }

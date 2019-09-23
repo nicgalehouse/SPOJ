@@ -56,6 +56,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Solutions\1 - Settler\TESTTests.cs" />
     <Compile Include="Solutions\SolutionTestsBase.cs" />
     <Compile Include="TagsTests.cs" />
   </ItemGroup>
@@ -75,7 +76,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Solutions\1 - Settler\" />
     <Folder Include="Solutions\2 - Chieftain\" />
     <Folder Include="Solutions\3 - Warlord\" />
     <Folder Include="Solutions\4 - Prince\" />

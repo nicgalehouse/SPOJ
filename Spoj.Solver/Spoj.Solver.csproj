@@ -54,7 +54,8 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Solutions\TEMPLATE1.cs" />
+    <Compile Include="Solutions\1 - Settler\TEST.cs" />
+    <None Include="Solutions\TEMPLATE1.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spoj.Library\Spoj.Library.csproj">
@@ -99,7 +100,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Solutions\1 - Settler\" />
     <Folder Include="Solutions\2 - Chieftain\" />
     <Folder Include="Solutions\3 - Warlord\" />
     <Folder Include="Solutions\4 - Prince\" />
