@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Solutions\1 - Settler\TESTTests.cs" />
     <Compile Include="Solutions\2 - Chieftain\ADDREVTests.cs" />
+    <Compile Include="Solutions\2 - Chieftain\ARMYTests.cs" />
     <Compile Include="Solutions\SolutionTestsBase.cs" />
     <Compile Include="TagsTests.cs" />
   </ItemGroup>

@@ -92,6 +92,34 @@ namespace Spoj.Solver {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to using System;
+        ///using System.Collections.Generic;
+        ///using System.Linq;
+        ///
+        ///// https://www.spoj.com/problems/ARMY/
+        ///public static class ARMY
+        ///{
+        ///    public static string Solve(int[] godzillasArmy, int[] mechasArmy)
+        ///        =&gt; godzillasArmy.Max() &gt;= mechasArmy.Max() ? &quot;Godzilla&quot; : &quot;MechaGodzilla&quot;;
+        ///}
+        ///
+        ///public static class Program
+        ///{
+        ///    private static void Main()
+        ///    {
+        ///        var numberOfBattles = int.Parse(Console.ReadLine());
+        ///
+        ///        for (int b = 0; b &lt; numberOfBattles; b++)
+        ///        {
+        ///            Co [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string ARMY {
+            get {
+                return ResourceManager.GetString("ARMY", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to #ad-hoc
         ///#bfs
         ///#big-numbers
