@@ -54,8 +54,9 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Solutions\3 - Warlord\ABSYS.cs" />
     <None Include="Solutions\2 - Chieftain\ARMY.cs" />
-    <Compile Include="Solutions\2 - Chieftain\NSTEPS.cs" />
+    <None Include="Solutions\2 - Chieftain\NSTEPS.cs" />
     <None Include="Solutions\2 - Chieftain\QUADAREA.cs" />
     <None Include="Solutions\1 - Settler\TEST.cs" />
     <None Include="Solutions\2 - Chieftain\ADDREV.cs" />
@@ -101,10 +102,10 @@
     <EmbeddedResource Include="Solutions.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Solutions.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Solutions\3 - Warlord\" />
     <Folder Include="Solutions\4 - Prince\" />
     <Folder Include="Solutions\5 - King\" />
     <Folder Include="Solutions\6 - Emperor\" />

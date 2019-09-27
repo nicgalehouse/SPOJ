@@ -63,6 +63,30 @@ namespace Spoj.Solver {
         /// <summary>
         ///   Looks up a localized string similar to using System;
         ///
+        ///// https://www.spoj.com/problems/ABSYS/
+        ///// Takes an equation with the format &quot;number + number = number&quot; where one number is obfuscated
+        ///// by an inkblot and returns the equation with no numbers obfuscated.
+        ///public static class ABSYS
+        ///{
+        ///    private const string _inkblot = &quot;machula&quot;;
+        ///
+        ///    public static string Solve(string equation)
+        ///    {
+        ///        var equationParts = equation.Split();
+        ///
+        ///        int addend1; // lineParts[0];
+        ///        int addend2; // lineParts[2];
+        ///        int sum; // line [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string ABSYS {
+            get {
+                return ResourceManager.GetString("ABSYS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to using System;
+        ///
         ///// https://www.spoj.com/problems/ADDREV/
         ///// Reverses two integers then sums them then returns the reversed sum.
         ///public static class ADDREV
@@ -127,23 +151,25 @@ namespace Spoj.Solver {
         ///// https://www.spoj.com/problems/NSTEPS/
         ///public static class NSTEPS
         ///{
-        ///    public static string Solve(int x, int y)
+        ///    public static int? Solve(int x, int y)
         ///    {
         ///        if (x == y)
-        ///        {
-        ///            // The same number
-        ///            if (x % 2 == 0)
-        ///            {
-        ///                // Even
-        ///                return $&quot;{(x * 2)}&quot;;
-        ///            }
-        ///            else
-        ///            {
-        ///                // Odd
-        ///                return $&quot;{((x * 2) - 1)}&quot;;
-        ///            }
-        ///        }
-        ///  [rest of string was truncated]&quot;;.
+        ///            return x % 2 == 0
+        ///                ? x * 2
+        ///                : x * 2 - 1;
+        ///
+        ///        if (x == y + 2)
+        ///            return x % 2 == 0
+        ///                ? x + y
+        ///                : x + y - 1;
+        ///
+        ///        return null;
+        ///    }
+        ///}
+        ///
+        ///public static class Program
+        ///{
+        ///    private static void Main [rest of string was truncated]&quot;;.
         /// </summary>
         public static string NSTEPS {
             get {

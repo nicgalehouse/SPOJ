@@ -61,6 +61,7 @@
     <Compile Include="Solutions\2 - Chieftain\ARMYTests.cs" />
     <Compile Include="Solutions\2 - Chieftain\NSTEPSTests.cs" />
     <Compile Include="Solutions\2 - Chieftain\QUADAREATests.cs" />
+    <Compile Include="Solutions\3 - Warlord\ABSYSTests.cs" />
     <Compile Include="Solutions\SolutionTestsBase.cs" />
     <Compile Include="TagsTests.cs" />
   </ItemGroup>
@@ -80,7 +81,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Solutions\3 - Warlord\" />
     <Folder Include="Solutions\4 - Prince\" />
     <Folder Include="Solutions\5 - King\" />
     <Folder Include="Solutions\6 - Emperor\" />
